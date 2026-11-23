@@ -10,7 +10,7 @@
 1. Установите `requirements.txt`. Для GPU установите CUDA-сборку PyTorch по инструкции https://pytorch.org/get-started/locally/.
 2. Распакуйте весь проект. Выполняйте notebooks из каталога, содержащего пакет `brmarl/`.
 3. Поместите `AUG_global_map_osrm_seconds.pkl`, `glob_pref_map.pkl`, существующий `distances.dat` в `data/`
-   либо задайте `BRMARL_DATA_ROOT` и `BRMARL_DISTANCE_FILE`. Исходный набор: **385 полигонов, 20160 точек/столбцов заказов**.
+   либо задайте `BRMARL_DATA_ROOT` и `BRMARL_DISTANCE_FILE`. Исходный набор: **385 полигонов, 13549 точек/столбцов заказов**.
 4. Сначала выполните подготовку assets/cache в `01_train_brmarl.ipynb`, затем обучение и `02_test_brmarl.ipynb`.
 
 По умолчанию MODE=original. Синтетическая инженерная карта включается только явно через
